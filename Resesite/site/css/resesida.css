@@ -31,25 +31,34 @@ button.login{
 
 article{
     margin: 10px;
-    grid-column: 1 / 6;
+    grid-column: 2 / 6;
     grid-row: 2 / 3; 
 }
 
 input.search{
-width: 190px;
+width: 200px;
 }
 
 button.search{
+grid-column: 7 / 8;
+grid-row: 2 / 3;
+}
+
+button.menu{
+grid-column: 1 / 2;
+grid-row: 2 / 3;
+
+}
+
+aside{
 grid-column: 6 / 7;
+grid-row: 2 / 3;
 }
 
-/*button.menu{
-
-     
+main{
+grid-column: 1 / 8;
+grid-row: 3 / 7;
 }
 
-.menu{
-
-}*/
 
 /*.fade{}*/
