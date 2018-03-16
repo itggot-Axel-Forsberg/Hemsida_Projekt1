@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/resesida.css">
+    <link href="https://fonts.googleapis.com/css?family=BioRhyme|Cabin" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Backpack-Traveller</title>
+</head>
+<body>
+    <header><h2>Backpack-Traveller</h2></header>
+    <button class="login">Log in</button>
+    <div class="search">
+        <button class="search"> search</button>
+    </div>
+    <div class="container">
+        <div class="menu">
+            <i class="material-icons" onclick="toggleMenu()">close</i>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
+
+        </div>
+
+        <main>
+            <i class="material-icons" onclick="toggleMenu()">menu</i>
+
+        </main>
+    </div>
+    <script src="js/menu.js"></script>
+    <div class="input">
+        <input type="text" class="search"/>
+    </div>
+    <nav>
+        <a href="about.html">Noob</a>
+        <a href="index.html">Kappa123</a>
+    </nav>
+    <main>
+        <%=yield %>
+    </main>
+</body>
+</html>
